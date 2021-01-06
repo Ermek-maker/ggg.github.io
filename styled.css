@@ -1,0 +1,84 @@
+img {
+	width: 100%;
+}
+nav {
+	text-align: center;
+}
+nav ul {list-style: none;
+	margin: 0;
+	padding: 0;}
+	nav a {display: block;
+		text-decoration: none;}
+	.topmenu {background: red;}
+	.topmenu > li {display: inline-block;
+		position: relative;}
+	.topmenu > li > a {font-family: "Exo 2", sans-serif;
+height:70px;
+font-size: 27px;
+line-height: 70px;
+padding: 0 40px;
+font-weight: bold;
+color: white;}
+.topmenu li a:hover {color: black;}
+.submenu {background: white;
+border: 3px solid black;
+position: absolute;
+opacity: 0;
+z-index: 5;
+width: 150px;
+transform-origin: 0% 0%;
+transition: .6s ease-in-out;
+transform: perspective(600px) rotateX(-90deg);  }
+.topmenu > li:hover .submenu {
+	visibility: visible;
+	opacity: 1;
+	transform: perspective(600px)rotateX(0deg);}
+	.submenu li a {
+		color: red;
+		font-size: 21px;
+		padding: 0 25px;
+	}
+label,input {
+	text-align: left;
+	width: 100%;
+	padding: 5px;
+	margin: 5px;
+}
+.boom{
+	text-align: center;
+	width: 100%;
+	color: red;
+}
+.neo {
+	width: 30%;
+	margin-left: 35%;
+	background: green;
+}
+.picmo {
+	width: 90%;
+	background: url(santa.jpg) 50%;
+	background-size: cover;
+	height: 1200px;
+	font-style: italic;
+	text-align: center;
+	font-size: 36px;
+	padding-top: 179px;
+	line-height: 65px;
+	margin-left: 5%;
+	margin-top: 100px;
+}
+span {
+	color: red;
+	text-decoration: underline;
+	font-size: 36px;
+}
+h1 {
+	text-align: center;
+}
+.news {
+
+}
+img {
+	width: 45%;
+	margin: 15px;
+}

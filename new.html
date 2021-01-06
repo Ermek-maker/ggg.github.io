@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Новый год</title>
+	<link rel="stylesheet" type="text/css" href="styled.css">
+</head>
+<body>
+<div>
+	<nav>
+			<ul class="topmenu">
+				<li><a href="new.html">главное</a><li>
+				<li><a href="news.html">новости</a></li>
+				<li><a href="" class="down">в/р</a>
+					<ul class="submenu">
+					<li><a href="home.html" class="down">Вход</a></li>
+					<li><a href="#regist" class="down">Регистрация</a></li>
+				</ul>
+			</li>	
+			</ul>
+		</nav>
+</div>
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/Wuh5mN-ajFU" frameborder="0" autoplay="muted"></iframe>
+ <!--allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"-->
+ <div class="neo">
+ <form>
+ <div class="boom">
+ 	<h2>Открытка</h2>
+<label>Имя</label>
+<input type="text" placeholder="Введите имя" id="name">
+<label>Возр.реб</label>
+<input type="text" placeholder="Введите возраст" id="age">
+<label>Увлечение</label>
+<input type="text" placeholder="Увлечение" id="hobbi">
+<label>Подарок</label>
+<input type="text" placeholder="Подарок"id="surpr">
+<button type="sudmit" onclick="document.getElementById('imya').innerHTML=document.getElementById('name').value;
+                               document.getElementById('let').innerHTML=document.getElementById('age').value;
+                               document.getElementById('xobi').innerHTML=document.getElementById('hobbi').value;
+                               document.getElementById('podarok').innerHTML=document.getElementById('surpr').value;
+
+ return false;">Отправить</button>
+ </div>
+</form>
+</div>
+<div class="picmo">
+Дорогой Дед Мороз.<br>
+Меня зовут <span id="imya"></span></br>
+Мне <span id="let"></span><br>
+Я люблю <span id="xobi"></span></br>
+Я вел себя хорошо<br>
+Я хочу на новый год в подарок </br>
+<span id="podarok"></span>
+</div>
+</body>
+</html>

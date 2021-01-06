@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+}
+.meny {
+	width: 20%;
+	float: left;
+	
+
+}
+.content {
+	width: 78%;
+    float: left;
+    margin-left: 5px;
+}
+.novication {
+	clear: both;
+}
+img {
+	width: 100%;
+}
+nav {
+	text-align: center;
+}
+nav ul {list-style: none;
+	margin: 0;
+	padding: 0;}
+	nav a {display: block;
+		text-decoration: none;}
+	.topmenu {background: red;}
+	.topmenu > li {display: inline-block;
+		position: relative;}
+	.topmenu > li > a {font-family: "Exo 2", sans-serif;
+height:70px;
+font-size: 27px;
+line-height: 70px;
+padding: 0 40px;
+font-weight: bold;
+color: white;}
+.topmenu li a:hover {color: black;}
+.submenu {background: white;
+border: 3px solid black;
+position: absolute;
+opacity: 0;
+z-index: 5;
+width: 150px;
+transform-origin: 0% 0%;
+transition: .6s ease-in-out;
+transform: perspective(600px) rotateX(-90deg);  }
+.topmenu > li:hover .submenu {
+	visibility: visible;
+	opacity: 1;
+	transform: perspective(600px)rotateX(0deg);}
+	.submenu li a {
+		color: red;
+		font-size: 21px;
+		padding: 0 25px;
+	}
+	.room1 {
+		width: 100%;
+		clear: both;
+
+	}
+	.room2 {
+		width: 100%;
+clear: both;
+ background: white;
+	}
+.name {
+	width: 100%;
+font-size: 25px;
+font-style: italic;
+
+}
+.img1 {
+	width: 20%;
+	float: left;
+	padding: 10px;
+}
+.tekst {
+	width: 75%;
+	float: left;
+	padding: 10px;
+
+}
+.tekst2 {
+width: 75%;
+float: left;
+padding: 10px;
+}
+.img2 {
+	width: 20%;
+	float: left;
+	padding: 10px;
+}
+.img3 {
+	width: 50%;
+	float: left;
+	background: url(Lighthouse.jpg) 100% no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+.okno2 {
+	width: 40%;
+    padding: 40px;
+}
+.groot {
+	width: 100%;
+}
+.pass {
+	width: 100%;
+}
+.parol {
+	width: 100%;
+    background: purple;
+    color: lime;
+    height: 40px;
+}
+.label {
+	padding: 10px;
+}
+.form {
+	margin-left: 400px;
+}

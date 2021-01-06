@@ -1,0 +1,42 @@
+.file {
+width: 65%;
+float: left;
+padding: 10px;
+text-align: left;
+}
+.foto {
+	width: 28%;
+	float: left;
+	padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+img {
+	width: 80%;
+}
+.name {
+	width: 30%;
+	text-align: left;
+	float: left;
+	padding-left: 40px;
+}
+.fam {
+	width: 30%;
+	text-align: left;
+	float: left;
+	padding-left: 30px;
+	color: red;
+}
+p {
+	color: red;
+}
+body {
+	text-align: center;
+
+}
+.boo {
+	width: 20%;
+	background: url(Lighthouse.jpg) 100% no-repeat;
+	background-size: cover;
+	height: 50px;
+}
